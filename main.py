@@ -101,13 +101,8 @@ def osb_check_db(watchlist, duration=100):
     return df_all
 
 # --- Watchlist ---
-watchlist_full = ['MSFT','META','AAPL','GOOG','CRM','GILD','PFE','MMM','BMY','ABBV','CVS','JNJ','MRK',
-                  'AMD','INTC','NVDA','V','MA','AXP','COF','JPM','BAC','C','WFC','MS','GS','BK','AIG','BRK-B','HSBC',
-                  'WMT','AMZN','PG','UL','CL','XOM','CVX','SLB','BA','TSLA','SPOT','ZM','UBER','LYFT','^GSPC','GLD',
-                  'TLT','HYG','SLV','QQQ','IJR','TQQQ','ASHR','NSRGY','ADBE','SLAB','CDNS','SNPS','BKNG','VEEV','RMD',
-                  'MCD','YUM','YUMC','NKE','UNH','DIS','KO','CLX','EL','DPZ','KWEB','ITA','DIA','IHF','GXC','LMT',
-                  'SPGI','CME','COST','ACN','HON','CMCSA','PEP','INTU','EDU','SBUX','ILMN','ISRG','XAR','IBUY',
-                  'SKYY','VNQ','MRNA','QCOM','LULU']
+
+watchlist_full = pd.read_csv('watchlist.csv')['Ticker'].tolist()
 
 # --- Run Analysis ---
 df = osb_check_db(watchlist_full)

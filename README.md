@@ -1,11 +1,8 @@
 # 📈 Stock Oversold/Overbought Indicator Plot
 
-This project helps you visualize stocks that are currently **oversold** or **overbought** based on technical indicators like **RSI** and **Stochastic**. It processes your watchlist from a CSV file and displays a color-coded histogram to highlight signal strength.
+This project helps you visualize stocks that are currently **oversold** or **overbought** based on technical indicators like **RSI** and **Stochastic**. 
 
-![Example Chart](static/2025-08-07.png)
-
----
-
+It processes your watchlist from a CSV file and displays a color-coded histogram to highlight signal strength.
 ## 🚀 Features
 
 - ✅ Automatically loads stock indicator values from `watchlist.csv`
@@ -14,6 +11,12 @@ This project helps you visualize stocks that are currently **oversold** or **ove
   - 🔴 **Red**: Deep Oversold (≤ -3)
   - 🟢 **Green**: Deep Overbought (≥ 3)
   - 🔵 **Blue**: Neutral / Mid-range
+
+
+![Example Chart](static/2025-08-07.png)
+
+---
+
 
 ---
 

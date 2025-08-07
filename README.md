@@ -35,15 +35,18 @@ This project helps you visualize stocks that are currently **oversold** or **ove
 2. **Place your watchlist.csv file (with stock symbols) in the project root folder**
 
 3. **Install Dependencies**
-	'''bash
+	
+	```bash
 	pip install -r requirements.txt
 
 4. **Generate Data & Visualize**
-	'''bash
+	
+	```bash
 	python3 main.py
 
 5. **Run the Flask Web App**
-	'''bash
+	
+	```bash
 	python3 app.py
 
 Navigate to http://127.0.0.1:5000/ to view your results.

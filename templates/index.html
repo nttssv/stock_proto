@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Static Files Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .image-container {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .image-container img {
+            max-width: 1000px;
+            height: auto;
+            display: block;
+            margin-top: 10px;
+        }
+        .file-name {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Static Folder Contents (Newest First)</h1>
+    {% for file in files %}
+    <div class="image-container">
+        <div class="file-name">{{ file.name }}</div>
+        <img src="{{ url_for('static', filename=file.name) }}" alt="{{ file.name }}">
+    </div>
+    {% endfor %}
+</body>
+</html>

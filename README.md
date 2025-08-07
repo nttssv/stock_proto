@@ -1,29 +1,55 @@
-# stock_check
+# 📈 Stock Oversold/Overbought Indicator Plot
 
-⸻
+This project helps you visualize stocks that are currently **oversold** or **overbought** based on technical indicators like **RSI** and **Stochastic**. It processes your watchlist from a CSV file and displays a color-coded histogram to highlight signal strength.
 
-Stock Oversold/Overbought Indicator Plot
+![Example Chart](static/2025-08-07.png)
 
-This script analyzes stock indicators (like RSI/Stochastic) from a watchlist.csv file and visualizes symbols that are currently oversold or overbought based on specified thresholds.
+---
 
-⸻
+## 🚀 Features
 
-Features
-	•	Automatically loads stock indicator values from watchlist.csv
-	•	Filters out unwanted tickers (e.g., index funds, certain ETFs)
-	•	Annotates stocks on a histogram:
-	•	Red: Deep Oversold (≤ -3)
-	•	Green: Deep Overbought (≥ 3)
-	•	Blue: Neutral / Mid-range
+- ✅ Automatically loads stock indicator values from `watchlist.csv`
+- 🧹 Filters out unwanted tickers (e.g. index funds, certain ETFs)
+- 📊 Visualizes strength signals in a histogram:
+  - 🔴 **Red**: Deep Oversold (≤ -3)
+  - 🟢 **Green**: Deep Overbought (≥ 3)
+  - 🔵 **Blue**: Neutral / Mid-range
 
-Input
-	•	watchlist.csv: Must contain at least the following columns:
-	•	symbol
+---
 
-How to use
-1. Clone this repo
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+## 📂 Input File
 
-2. Add your watchlist.csv in the same folder as the script.
-3. Run the script:
+**`watchlist.csv`** should include at least the following column:
+- `symbol`
+
+---
+
+## 🛠️ How to Use
+
+1. **Clone this repository**
+
+   ```bash
+   git clone https://github.com/nttssv/stock_check.git
+   cd stock_check
+
+2. **Place your watchlist.csv file (with stock symbols) in the project root folder**
+
+3. **Install Dependencies**
+	'''bash
+	pip install -r requirements.txt
+
+4. **Generate Data & Visualize**
+	'''bash
+	python3 main.py
+
+5. **Run the Flask Web App**
+	'''bash
+	python3 app.py
+
+Navigate to http://127.0.0.1:5000/ to view your results.
+
+📄 License
+
+MIT License. Use it freely for educational or personal projects.
+
+

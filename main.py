@@ -134,6 +134,6 @@ plt.title('Stochastic & BB indicators', weight='bold')
 plt.xlabel('Oversold - Overbought Indicators', weight='bold')
 plt.ylabel('# of securities', weight='bold')
 
-filename = f"/static/{datetime.now().strftime('%Y-%m-%d')}_st_bb.png"
+filename = f"/static/{datetime.now().strftime('%Y-%m-%d')}.png"
 plt.savefig(my_path + filename)
 print("My program took", time.time() - start_time, "to run")

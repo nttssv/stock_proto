@@ -1,0 +1,14 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Created by venv; see https://docs.python.org/3/library/venv.html
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.log

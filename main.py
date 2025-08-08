@@ -117,7 +117,7 @@ plt.xlim(xmin=-6, xmax=6)
 for value, symbols in list_symbol:
     color = 'g' if value >= 3 else 'r' if value <= -3 else 'b'
     for idx, sym in enumerate(symbols):
-        ax.annotate(sym, xy=(value, idx + 1), color=color)
+        ax.annotate(sym, xy=(value, idx + 2), color=color)
 
 # Set X-axis labels
 labels = ['Deep Oversold'] * 2 + ['Oversold'] * 2 + ['Mild Oversold'] * 2 + [0] + ['Mild Overbought'] * 2 + ['Overbought'] * 2 + ['Deep Overbought'] * 2

@@ -1,0 +1,27 @@
+symbol,date,analysis
+MS,2025-08-12,"Here's an analysis of the sentiment surrounding MS based on the provided news data:
+
+**Sentiment Evolution:**
+
+*   **Last Week (2025-08-07 - 2025-08-10):** The sentiment was mixed, with a noticeable presence of neutral news. There were negative mentions related to potential downside risks in the labor market and concerns about stocks being under threat from AI. However, there were also positive indicators like carry traders betting on emerging markets and analysts suggesting a new bull market.
+*   **This Week (2025-08-11 - 2025-08-13):** The sentiment has shifted predominantly towards positive. Several articles highlight potential rebounds in dealmaking, strong liquidity at Goldman Sachs, and positive performance of Goldman Sachs shares. Morgan Stanley is frequently mentioned in a neutral or positive context, with analysts suggesting it could be a good buy. There is also a neutral article about potential downside risks in the labor market.
+
+**Key Risks/Negative Factors:**
+
+*   Downside risks to the labor market (reported 2025-08-12).
+*   Potential for stocks to be under threat from AI (reported 2025-08-09).
+*   Morgan Stanley's analyst notes mentioning ""more challenging"" months ahead (reported 2025-08-05).
+
+**Positive Developments:**
+
+*   Morgan Stanley's analysts are optimistic about a continued rebound in dealmaking (reported 2025-08-13).
+*   Strong liquidity at Goldman Sachs could support capital distribution strategies (reported 2025-08-13).
+*   Goldman Sachs shares have gained significantly year-to-date (reported 2025-08-13).
+*   Analysts suggest Morgan Stanley could be a great choice (reported 2025-08-04).
+*   Positive outlook on stocks when they dip (reported 2025-08-04).
+
+**Sentiment Outlook for Today (2025-08-13):**
+
+Positive
+
+MS,2025-08-13,0.77,0.22,0.01,positive"

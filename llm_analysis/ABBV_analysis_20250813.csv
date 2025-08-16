@@ -1,20 +1,20 @@
 symbol,date,analysis
-ABBV,2025-08-13,"Analysis of ABBV Sentiment (2025-08-04 to 2025-08-12):
+ABBV,2025-08-13,"The sentiment for ABBV this week has been predominantly positive. Today's news (2025-08-13) is positive, highlighting growth in Immunology and Neuroscience outpacing Aesthetics, although guidance was trimmed. This follows a positive sentiment in the previous days, including news about the company's Q2 performance and a positive outlook from analysts.
 
-**Last Week (2025-08-04 - 2025-08-10):** The sentiment was mixed, with a slight lean towards positive. Positive developments included analyst favorites, positive news regarding a drug's phase 3 results for alopecia areata, and anticipation surrounding investor attention and stock outlook. Negative factors mentioned were pharma CEOs downplaying tariff impacts and concerns about rising costs.
+Key positive developments include:
+* Positive Q2 results with growth in Immunology and Neuroscience.
+* Positive analyst commentary on Q2 earnings.
+* A report indicating a potentially positive return on investment for those who invested in ABBV stock 10 years ago.
+* News regarding a $195 million investment in a North Chicago facility to produce active pharmaceutical ingredients.
+* Positive news regarding upadacitinib for alopecia areata.
+* Positive reports on multiple myeloma market trends featuring ABBV.
+* Positive reports on personalized medicine market trends featuring ABBV.
+* Positive news about upadacitinib showing positive Phase 3 results for severe alopecia areata treatment.
 
-**This Week (2025-08-11 - 2025-08-12):** The sentiment has been predominantly neutral. News includes market analysis reports covering multiple myeloma and personalized medicine, as well as updates on AbbVie's upadacitinib for alopecia areata and non-metastatic prostate cancer. No explicitly negative developments are mentioned this week.
+The only negative factor mentioned is:
+* A negative sentiment report regarding a Wall Street analyst downgrading Shopify, although this is not directly related to ABBV.
+* A negative report regarding Hungary's Richter facing tariff challenges with some US exports.
 
-**Key Risks/Negative Factors:**
-* Pharma CEOs downplaying the impact of tariffs amid rising cost concerns (2025-08-04).
-* Potential tariff challenges for US exports (specifically mentioned for Hungary's Richter, though their flagship drug is exempt) (2025-08-04).
+Sentiment Outlook: Positive.
 
-**Positive Developments:**
-* AbbVie's upadacitinib showing positive phase 3 results for severe alopecia areata treatment (2025-08-09, 2025-08-11).
-* Positive market analysis reports highlighting innovation and growth in multiple myeloma and non-metastatic prostate cancer markets (2025-08-11).
-* AbbVie's upadacitinib raising the bar for alopecia areata treatment (2025-08-11).
-* Investor interest and positive stock outlook for AbbVie (2025-08-05, 2025-08-05).
-
-**Sentiment Outlook for Today (2025-08-12):** Based on the provided data, the sentiment for today is neutral, as there is no new news.
-
-ABBV,2025-08-12,50.00,50.00,0.00,neutral"
+ABBV,2025-08-13,100.00,0.00,0.00,positive"

@@ -1,23 +1,25 @@
 symbol,date,analysis
-XOM,2025-08-13,"The sentiment surrounding ExxonMobil (XOOM) has been predominantly positive over the past week. 
+XOM,2025-08-13,"Here's an analysis of the sentiment surrounding XOM based solely on the provided news data:
+
+**Sentiment Evolution:**
+
+*   **Last Week (2025-08-04 - 2025-08-10):** The sentiment was mixed, with a blend of positive, neutral, and negative news. Positive news focused on production boosts, earnings beats, and price target increases. Negative news centered on tariff threats and a ""managed decline"" strategy.
+*   **This Week (2025-08-11 - 2025-08-13):** The sentiment has been predominantly positive. News highlights include production advancements in Guyana, earnings reports, and positive analyst commentary.
+
+**Key Risks/Negative Factors:**
+
+*   Trump's tariff threats on India, potentially impacting global oil supply (2025-08-06).
+*   ""Managed decline"" strategy, potentially masking expansion efforts (2025-08-11).
 
 **Positive Developments:**
 
-*   **Strong Production:** News indicates ExxonMobil is benefiting from its operations in South America, particularly Guyana, with increased oil production. This includes the launch of a new FPSO and commencement of production at the Yellowtail development.
-*   **Financial Performance:** ExxonMobil released its Q2 2025 results, which were viewed positively.  There is also a report suggesting strong Q2 production.
-*   **Investment & Outlook:** Morgan Stanley raised ExxonMobil's price target and maintained an overweight rating.  There is also a report suggesting that ExxonMobil's upstream strength could fuel long-term growth.
-*   **Strategic Moves:** ExxonMobil is pursuing strategic initiatives such as an MoU to re-enter Libya after a decade-long hiatus and exploring deepwater blocks off Trinidad's east coast.
-*   **Market Perception:**  Reports suggest ExxonMobil is a trending stock, and its upstream strength is a positive factor.
+*   Strong production growth in Guyana, including new FPSO and Yellowtail development (2025-08-11, 2025-08-08, 2025-08-08).
+*   Positive Q2 earnings reports and analyst price target increases (2025-08-04, 2025-08-07, 2025-08-05).
+*   ExxonMobil's investments and exploration activities in Trinidad and Tobago (2025-08-13, 2025-08-12, 2025-08-11).
+*   Shell's Q2 earnings beat expectations (2025-08-07).
 
-**Negative Factors/Risks:**
+**Sentiment Outlook for Today (2025-08-13):**
 
-*   **Tariff Concerns:** Trump's tariff actions on India pose a potential threat to global oil supply.
-*   **Market Volatility:** Trump-Putin talks created uncertainty in oil markets.
-*   **Oil Market Conditions:** Oil prices experienced a drop following an OPEC+ supply decision.
-*   **Strategic Shift Concerns:** A report suggests that ExxonMobil's ""managed decline"" strategy might be masking an expansion push, which could be viewed negatively by some investors.
+Positive
 
-**Sentiment Outlook for Today:**
-
-Based on the provided data, the sentiment for today is neutral, as there is no news available.
-
-XOOM,2025-08-12,50.00,50.00,0.00,neutral"
+XOOM,2025-08-13,75.00,25.00,0.00,positive"

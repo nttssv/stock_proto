@@ -1,18 +1,22 @@
 symbol,date,analysis
-LLY,2025-08-13,"## Sentiment Evolution Analysis: Eli Lilly (LLY)
+LLY,2025-08-13,"Sentiment analysis of Eli Lilly (LLY) news from 2025-08-07 to 2025-08-12:
 
-**Last Week (2025-08-06):**
+**Last Week (2025-08-07):** The sentiment surrounding Eli Lilly was predominantly negative. Key negative factors included a significant drop in the stock price (14%), driven by disappointing results from their experimental weight-loss pill, which trailed Novo Nordisk's Wegovy.  This was accompanied by negative commentary from analysts like Leerink's Risinger, who downgraded the stock due to the disappointing data.  The news highlighted the competitive pressure in the weight-loss drug market.
 
-* **Positive Developments:** Several positive mentions of Eli Lilly, including Goldman Sachs maintaining a buy rating and highlighting the potential of obesity pill orders. Reports of strong Q2 growth fueled by drugs like Mounjaro and Zepbound.
-* **Negative Factors:** The primary negative factor was the disappointing data from Eli Lilly's experimental weight-loss pill, which underperformed compared to Novo Nordisk's Wegovy. This led to a downgrade from Leerink and a significant drop in the stock price.
+**This Week (2025-08-08 - 2025-08-12):** The sentiment shifted towards neutral and slightly positive, although the negative impact from the previous week lingered.  While the initial negative reaction to the weight-loss pill data persisted, some reports acknowledged the positive Q2 growth fueled by drugs like Mounjaro and Zepbound.  Goldman Sachs maintained a ""Buy"" rating on the stock, suggesting a belief in future growth potential.  However, the overall tone remained cautious, with the weight-loss pill setback being a significant concern.
 
-**This Week (2025-08-07):**
+**Key Risks/Negative Factors:**
 
-* **Positive Developments:**  The initial part of the week saw positive sentiment around Eli Lilly's Q2 earnings beat and the potential of their weight-loss drugs.
-* **Negative Factors:** The negative sentiment intensified significantly on 2025-08-07 due to the disappointing weight-loss pill trial results. This resulted in a substantial drop in the stock price and negative commentary from analysts. The data also mentions increased jobless claims, which could be a broader economic risk factor.
+*   Disappointing weight-loss pill trial results, falling short of Novo Nordisk's Wegovy.
+*   Analyst downgrades due to the weight-loss pill setback.
+*   Competitive pressure in the weight-loss drug market.
 
-**Sentiment Outlook for Today (2025-08-08):**
+**Positive Developments:**
 
-Based solely on the provided sentiment values, the sentiment for today is **negative**. The data indicates a strong negative trend following the disappointing weight-loss pill results, and no explicitly positive developments are mentioned for today.
+*   Strong Q2 growth driven by Mounjaro and Zepbound.
+*   Goldman Sachs maintaining a ""Buy"" rating.
+*   Cardiovascular benefits shown for Mounjaro in a head-to-head trial.
 
-LLY,2025-08-08,0.00,0.00,100.00,negative"
+**Sentiment Outlook for Today (2025-08-12):** Neutral. While there's been some positive commentary regarding Q2 growth and a maintained buy rating, the lingering negative sentiment from the weight-loss pill results and competitive pressures prevent a definitively positive outlook.
+
+LLY,2025-08-12,40.00,35.00,25.00,neutral"

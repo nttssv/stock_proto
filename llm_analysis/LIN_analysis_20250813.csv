@@ -1,12 +1,8 @@
 symbol,date,analysis
-LIN,2025-08-13,"Based on the provided news data:
+LIN,2025-08-13,"The sentiment for last week (2025-08-06) was positive, driven by Internațional Flavors Q2 earnings beating estimates, despite a sales dip year-over-year.
 
-Last week (2025-08-06) showed a positive sentiment due to International Flavors Q2 earnings beating estimates, although sales experienced a year-over-year dip.
+This week's news (up to today) includes a neutral headline regarding Caliche Development Partners commencing operation of a large helium salt cavern under a long-term Linde contract.
 
-This week (Monday to today) has no news.
+Based solely on the provided sentiment data, the sentiment outlook for today is neutral.
 
-Today's news (today) has no news.
-
-Sentiment Outlook for Today: Positive.
-
-LIN,2025-08-12,100.00,0.00,0.00,positive"
+LIN,2025-08-12,0.00,100.00,0.00,neutral"

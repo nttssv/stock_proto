@@ -7,7 +7,6 @@ import glob
 import os
 from datetime import datetime, timedelta
 import numpy as np
-from streamlit_plotly_events import plotly_events
 
 # Page configuration
 st.set_page_config(
@@ -322,29 +321,19 @@ with st.container():
     if 'selected_ticker' not in st.session_state:
         st.session_state.selected_ticker = None
 
-    # Capture click events
-    clicked_points = plotly_events(
-        fig,
-        key="interactive_bubble_chart",
-        click_event=True,
-        override_height=600
+    # Add ticker selection dropdown
+    available_tickers = merged['symbol'].unique().tolist()
+    selected_ticker = st.selectbox(
+        "Select a stock for detailed analysis:",
+        ["Click to select..."] + available_tickers,
+        key="ticker_selector"
     )
-
-    # Handle clicks
-    if clicked_points:
-        point = clicked_points[0]
-        curve_index = point['curveNumber']
-        point_index = point['pointIndex']
-        new_ticker = None
-
-        if curve_index == 0:  # Bubble clicked
-            bubble_text = hover_texts[point_index]
-            new_ticker = bubble_text.split('<br>')[0]
-        elif curve_index == 1:  # Label clicked
-            new_ticker = text_labels[point_index]
-
-        if new_ticker:
-            st.session_state.selected_ticker = new_ticker
+    
+    if selected_ticker and selected_ticker != "Click to select...":
+        st.session_state.selected_ticker = selected_ticker
+    
+    # Display the chart
+    st.plotly_chart(fig, use_container_width=True)
     
     st.markdown('</div>', unsafe_allow_html=True)
 
